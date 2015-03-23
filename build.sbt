@@ -1,3 +1,5 @@
+import spray.revolver.RevolverPlugin._
+
 name := "authentikat-jwt-example"
 
 version := "1.0.0-SNAPSHOT"
@@ -34,3 +36,5 @@ resolvers ++= Seq(
   "Typesafe Snapshots" at "http://repo.typesafe.com/typesafe/snapshots/",
   "Typesafe simple" at "http://repo.typesafe.com/typesafe/simple/maven-releases/"
 )
+
+Revolver.settings
